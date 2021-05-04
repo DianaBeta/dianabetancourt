@@ -1,0 +1,45 @@
+body{
+    margin:3vh;
+} 
+#avatar{
+    border-radius: 50%;
+}
+
+.name{
+    
+    color: #F89FAF;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+.introduction{
+    /* top | right | bottom | left */
+    padding: 7vh 2em 2vh 7vh;
+    font-weight: 700;
+}
+
+
+.introPage{
+    font-family: 'Work Sans', sans-serif;
+    padding: 20vh;
+}
+
+.navbar-expand-lg{
+    padding: 3vh;
+}
+
+.icons{
+    padding: 1vh 2vh 2vh 30vh;
+    color:#F89FAF;
+}
+i{
+    padding: 1vh;
+}
+
+.nav-link{
+    color:#353738;
+    
+}
+.nav-link:hover{
+    color:#F89FAF;
+
+}
