@@ -1,5 +1,5 @@
 body{
-    margin:3vh;
+    margin:2vh;
 } 
 #avatar{
     border-radius: 50%;
@@ -28,18 +28,26 @@ body{
 }
 
 .icons{
-    padding: 1vh 2vh 2vh 30vh;
+    padding: 1vh 2vh 2vh 40vh;
     color:#F89FAF;
 }
 i{
     padding: 1vh;
 }
 
-.nav-link{
+.nav-link , .check{
     color:#353738;
     
 }
-.nav-link:hover{
+.nav-link:hover, .check:hover{
     color:#F89FAF;
 
+}
+
+.name:hover, i:hover{
+   color: #353738
+}
+
+.check{
+    font-size: 1em;
 }
