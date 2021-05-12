@@ -1,5 +1,6 @@
 body{
     margin:2vh;
+    flex-wrap: nowrap;
 } 
 .avatar{
     border-radius: 50%;
@@ -104,4 +105,15 @@ i{
 .project-title{
      /* top | right | bottom | left */
      padding: 5vh 0vh 2vh 0vh;
+}
+
+.section-title{
+    font-size: 40px;
+    font-family: 'PT Serif', serif;
+}
+
+.subsection-title{
+    font-size: 30px;
+    font-family: 'PT Serif', serif;;
+
 }
