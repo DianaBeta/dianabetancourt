@@ -15,14 +15,14 @@
     <!--Font awesome-->
     <script src="https://kit.fontawesome.com/f91f9cbaa5.js" crossorigin="anonymous"></script>
     <title>Diana Betancourt</title>
-    
+    <link rel="shortcut icon"  class = "avatar" type="image/jpg" href="./img/avatar.jpg"/>
   </head>
   <body>
   
     <nav class="navbar-expand-lg navbar-light">
         <div class="container-fluid">
         <a class="name" href="#">
-            <img id = "avatar" src="img/avatar.jpg" alt="avatar-woman-face" width="34" height="40">
+            <img class = "avatar" src="img/avatar.jpg" alt="avatar-woman-face" width="34" height="40">
             Diana Betancourt 
         </a>
          
@@ -31,7 +31,7 @@
           </button>
             <div class="collapse navbar-collapse justify-content-end links"  id="navbarSupportedContent">
               
-                  <a class="nav-link active" aria-current="page" href="#">Work</a>     
+                  <a class="nav-link active" aria-current="page" href="#" onclick="ScrollToProjects();return false;">Work</a>     
                   <a class="nav-link" href="#">About</a>    
                   <a class="nav-link" href="#">Resume</a>  
                   <a class="nav-link" href="#">Contact</a>
@@ -42,8 +42,8 @@
        
       </nav>
     
-      <div class = "d-flex flex-row introPage container-fluid">
-        <header class = "introduction col"> <h1>Hey I am Diana!  A Digital Product designer and Front-End Developer based in Munich.</h1>  <br>
+      <div class = "d-flex d-block flex-row introPage container-fluid w-100">
+        <header class = "introduction col"> <h1>Hey I am Diana!  A Digital Product designer and Front-End Web Developer based in Munich.</h1>  <br>
            <div class = "icons  container">
              <div class = "row-lg">
                 <i class="fas fa-envelope fa-3x"></i>
@@ -59,9 +59,9 @@
     </div>
     <div class = "content container-fluid" >
       <div class = "container projects" id = "projects">
-        <div class = card>
+        <div class = card onclick="PersonalPortfolio();return false;">
         <div class = " container row">
-          <div class = "col-sm">
+          <div class = "col-sm project-title-subtitle">
             <button type="button" class="btn btn-dark">Personal Portfolio Project</button>
             <header class = "project-title"><h2>Personal Portfolio Project</h2></header>
             <p class = "description">Building responsive experiences that communicate </p>
@@ -71,9 +71,9 @@
          </div>
         </div>
       </div>
-      <div class = card>
+      <div class = "card d-block">
         <div class = " container row">
-          <div class = "col-sm">
+          <div class = "col-sm project-title-subtitle">
             <button type="button" class="btn btn-dark">Travel Application</button>
             <header class = "project-title"><h2>Travel Application</h2></header>
             <p class = "description">Building responsive experiences that communicate </p>
@@ -85,12 +85,12 @@
       </div>
       <div class = card>
         <div class = " container row">
-          <div class = "col-sm">
+          <div class = "col-sm project-title-subtitle">
             <button type="button" class="btn btn-dark">Landing page</button>
             <header class = "project-title"><h2>Landing Page</h2></header>
             <p class = "description">Building responsive experiences that communicate </p>
         </div>
-         <div class = "col-sm">
+         <div class = "col-sm project-title-subtitle">
            <img id = "homePagePhoto" class = "image-fluid" src = "img/travel_app.png">
          </div>
         </div>
