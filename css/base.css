@@ -1,6 +1,8 @@
+@import "../css/mediaqueries.css";
 body{
     margin:2vh;
     flex-wrap: nowrap;
+   
 } 
 .avatar{
     border-radius: 50%;
@@ -14,26 +16,33 @@ body{
 }
 .introduction{
     /* top | right | bottom | left */
-    padding: 7vh 2em 2vh 7vh;
     font-weight: 700;
+   
+    padding: 10vh 2vh 2vh 2vh;
+  
 }
 
 
 .introPage{
     font-family: 'Work Sans', sans-serif;
-    padding: 10vh 20vh 5vh 20vh;
+    padding:7vh;
+
+    
 }
+
 
 .navbar-expand-lg{
     padding: 3vh;
 }
 
-.icons{
-    padding: 1vh 2vh 2vh 40vh;
-    color:#F89FAF;
-}
 i{
     padding: 1vh;
+    color:#F89FAF;
+    justify-content: flex-end;
+}
+.icons{
+   
+    padding: 4vh 0vh 2vh 0vh;
 }
 
 .nav-link , .check{
@@ -51,6 +60,10 @@ i{
 
 .check{
     font-size: 1em;
+    /* top | right | bottom | left */
+    margin: 15vh 5vh 0vh 0vh;
+ 
+
 }
 .content{
     display: grid;
@@ -59,7 +72,7 @@ i{
     font-family: 'PT Serif', serif;
     font-size: 3vh;
     color: #353738;
-    /*border:blue 2px solid;*/
+    
 }
 
 .card{
