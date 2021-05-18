@@ -35,6 +35,10 @@ body{
 .navbar-expand-lg{
     padding: 3vh;
 }
+.fa-fa-bars{
+    font-size:28px;
+    color:#F89FAF
+}
 
 i{
     padding: 1vh;
