@@ -157,3 +157,8 @@ i{
     margin-bottom: 6vh;
     padding-top: 1vh;
 }
+iframe{
+    width: 40%;
+    border:solid gray;
+    margin: 6vh;
+}
