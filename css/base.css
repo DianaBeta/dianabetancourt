@@ -149,7 +149,8 @@ i{
 }
 
 .page-content{
-    margin: 0vh 20vh 2vh 20vh;
+     /* top | right | bottom | left */
+    margin: 0vh 20vh 2vh 2vh;
 }
 
 .section{
