@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="../css/mediaqueries.css">
 
     <!--Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,14 +24,15 @@
   
     <nav class="navbar-expand-lg navbar-light">
         <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!--<span class="navbar-toggler-icon">--> <i class="fas fa-bars" style="color:#F89FAF; font-size:28px;"></i>
+          </button>
         <a class="name" href="index.html">
             <img class = "avatar" src="img/avatar.jpg" alt="avatar-woman-face" width="34" height="40">
             Diana Betancourt 
         </a>
          
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        
             <div class="collapse navbar-collapse justify-content-end links"  id="navbarSupportedContent">
               
                   <a class="nav-link active" aria-current="page" href="#" onclick="ScrollToProjects();return false;">Work</a>     
@@ -43,33 +45,35 @@
         </div>
        
       </nav>
-    
-      <div class = "d-flex d-block flex-row introPage jumbotron-fluid container-fluid w-100">
-        <header class = "introduction col"> <h1>Hey I am Diana!  A Digital Product designer and Front-End Web Developer based in Munich.</h1>  <br>
-           <div class = "icons  container">
-             <div class = "row-lg">
-                <i class="fas fa-envelope fa-3x"></i>
-                <i class="fab fa-linkedin fa-3x"></i>
-                <i class="fab fa-instagram fa-3x"></i>
+      
+      <div class = "introPage container">
+          <div class="row flex-column-reverse flex-lg-row">
+            <div class = "col-lg-6">
+              <header class = "introduction row display-6 col-xs"> 
+                <p>Hey I am Diana!<br>A UX and Front-End Web Developer based in Munich.</p> 
+              </header>
+              <div class = "row-md d-flex justify-content-end icons" >
+                <a href="mailto:dianabetancourt7@gmail.com?subject=Let us connect!"><i class="fas fa-envelope fa-3x"></i></a>
+                <a href = "https://www.linkedin.com/in/diana-lucia-betancourt/"><i class="fab fa-linkedin fa-3x"></i></a>
+                <a href = "https://github.com/DianaBeta"><i class="fab fa-github fa-3x"></i></a>
               </div>
+              <a class = "check" href="#" onclick="ScrollToProjects();return false;">Check out my work</a>
             </div>
-          <a class = "row check" href="#" onclick="ScrollToProjects();return false;">Check out my work</a> 
-        </header>
-            
-       
-        <img class = "myPhoto image-fluid" src = "img/myPhoto.png" alt="myPicture" width="468" height="457">
+            <div class = " col col-sm photoContainer">   
+              <img class = "myPhoto img-fluid" src = "img/myPhoto.png" alt="myPicture">
+            </div>
+      </div>
     </div>
-    <div class = "content container-fluid" >
       <div class = "container projects" id = "projects">
         <div class = "card d-block">
-        <div class = " container row">
+        <div class = "row flex-column container flex-lg-row">
           <div class = "col-sm project-title-subtitle">
             <a href="./html/personalPortfolio.html"  type="button" class="btn btn-dark stretched-link">Personal Portfolio Project</a>
             <header class = "project-title"><h2>Personal Portfolio Project</h2></header>
             <p class = "description">Building responsive experiences that communicate </p>
         </div>
          <div class = "col-sm">
-           <img id = "homePagePhoto" class = "image-fluid" src = "img/homePagePhoto.png">
+           <img id = "homePagePhoto" class = "img-fluid" src = "img/homePagePhoto.png">
          </div>
         </div>
       </div>
@@ -81,11 +85,11 @@
             <p class = "description">Building responsive experiences that communicate </p>
         </div>
          <div class = "col-sm">
-           <img id = "homePagePhoto" class = "image-fluid" src = "img/travel_app.png">
+           <img id = "homePagePhoto" class = "img-fluid" src = "img/travel_app.png">
          </div>
         </div>
       </div>
-      <div class = card>
+      <div class = "card d-block">
         <div class = " container row">
           <div class = "col-sm project-title-subtitle">
             <button type="button" class="btn btn-dark stretched-link">Landing page</button>
@@ -93,12 +97,12 @@
             <p class = "description">Building responsive experiences that communicate </p>
         </div>
          <div class = "col-sm project-title-subtitle">
-           <img id = "homePagePhoto" class = "image-fluid" src = "img/travel_app.png">
+           <img id = "homePagePhoto" class = "img-fluid" src = "img/travel_app.png">
          </div>
         </div>
       </div>
       </div>
-    </div>
+    
       
 
     

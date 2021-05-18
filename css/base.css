@@ -25,7 +25,8 @@ body{
 
 .introPage{
     font-family: 'Work Sans', sans-serif;
-    padding:7vh;
+    padding:10vh;
+    
 
     
 }
@@ -54,6 +55,7 @@ i{
 
 }
 
+
 .name:hover, i:hover{
    color: #353738
 }
@@ -76,20 +78,22 @@ i{
 }
 
 .card{
-    padding: 3vh;
-    margin: 9vh;
+    /* top | right | bottom | left */
+    padding: 3vh 0vh 2vh 2vh;
+    margin: 3vh 0vh 7vh 2vh;
     background-color: #F4F4F4;
     border-color:#F4F4F4 ;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     font-family: 'Work Sans', sans-serif;
     height: auto;
-    width: 100%;
+    
+   
     
     
 }
 .card:hover {
-        opacity: 2;
+        opacity: 1;
         transition: .5s ease;
         backface-visibility: hidden;
         color:#35373862;
