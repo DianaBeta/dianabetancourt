@@ -1,10 +1,27 @@
 
 .form-group {
     margin-bottom: 1rem;
+    color:#353738;
 }
 
 label{
     margin:1vh 1vh 1vh 0vh;
     padding:1vh 1vh 1vh 0vh;;
     
+}
+
+
+.submit{
+    background-color: #ed3e5d; ;
+    border: #f07389;
+}
+
+.submit:hover{
+    background-color:#f07389;
+}
+
+.form-title{
+    font-family: 'Work Sans', sans-serif;
+    color:#353738;
+
 }
